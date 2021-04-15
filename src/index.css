@@ -11,3 +11,76 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card-title-extra{
+  display: flex;
+  height: 20px;
+  width: 32px;
+}
+
+.header-icon{
+  height: 20px;
+  width: 20px;
+  text-align: center;
+}
+
+.extra-index{
+  padding-left: 8px;
+}
+
+.meta-title-extra{
+  padding: 0px;
+  width: 305px;
+  height: 50px;
+  /* background-color:navajowhite; */
+}
+
+.asset{
+  width: 205px;
+  float: left;
+  min-width: 0px;
+}
+
+.collection{
+  text-align: left;
+  height: 25px;
+}
+
+.name{
+  height: 25px;
+  text-align: left;
+}
+
+.price{
+  direction: rtl;
+  display: block;
+  width: 100px;
+  height: 50px;
+  float: left;
+}
+
+.price-header{
+  width: 100px;
+  height: 25px;
+}
+
+.price-container{
+  display: flex;
+  width: 100px;
+  height: 25px;
+  margin-right: 0px;
+  align-items: center;
+}
+
+.price-amount{
+  margin: 8px;
+  display: flex;
+}
+
+.header-icon{
+  color: rgb(138, 147, 155);
+}
+
+.header-icon:hover{
+  color: rgb(235, 87, 87);
+}
